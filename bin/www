@@ -29,7 +29,7 @@ var server = http.createServer(app);
 
 
 var db = require("../config/database");
-var connection_string = "mongodb://localhost/Project";
+var connection_string = "mongodb://localhost/ionicbackend";
 db.connect(connection_string,function(err){
   if(err){
     console.log("Could not connect to Database");
